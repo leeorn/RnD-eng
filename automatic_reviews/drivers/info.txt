@@ -1,0 +1,8 @@
+On 12/31/2022 I downloaded the chrome driver version 108.0.5359.77 (the current Chrome version I use is 108.0.5359.124, but it wasn't available)
+Website to download: https://chromedriver.chromium.org/downloads (download the Linux version)
+Website to check my chrome version: chrome://settings/help
+
+- I moved the chromedriver to "usr/local/bin/" 
+- Than I added it the my PATH by typing "export PATH=$PATH:/usr/local/bin/chromedriver"
+- Lastly, run "source ~/.bashrc" 
+- Now when typing "chromedriver --version" in the terminal it shows its version
